@@ -1,7 +1,15 @@
 import weatherhat
 import time
+import csv
+from datetime import datetime
 
 sensor = weatherhat.WeatherHAT()
+
+with open('weather_data.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Tijdstip", "Apparaat Temperatuur (°C)", "Temperatuur (°C)",
+                     "Luchtdruk (hPa)", "Luchtvochtigheid (%)", "Lichtintensiteit (lux)", 
+                     "Windsnelheid (m/s)", "Windrichting (graden)"])
 
 while True:
  apparaat_tempratuur = sensor.device_temprature
@@ -19,6 +27,11 @@ while True:
  print(f"Lichtintensiteit: {lux:.2f} lux")
  print(f"Windsnelheid: {windkracht:.2f} m/s")
  print(f"Windrichting: {windrichting:.2f} graden")
+ 
+ with open('weather_data.csv', mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([datetime.now(), apparaat_temperatuur, temperatuur, 
+                         druk, vochtigheid, lux, windkracht, windrichting])
  
  sensor.update(interval=5)
  time.sleep(1)
