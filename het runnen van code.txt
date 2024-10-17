@@ -1,0 +1,8 @@
+het runnen van de geschreven code via therminal, het werkt niet via visual studio zelf: 
+
+pip install weatherhat --break-system-packages
+/bin/python /home/rpi/weatherhat-python/examples/basic.py
+/bin/python /home/rpi/weatherhat-python/examples/weatherhat1.py
+
+
+
