@@ -51,7 +51,7 @@ while True:
 
  # Tekst toevoegen aan het beeld
  draw.text((10, 10), f"App. temp: {apparaat_temperatuur:.2f} C", font=font, fill=inky_display.BLACK)
- draw.text((10, 30), f"Temp: {temperatuur:.2f} C", font=font, fill=inky_display.BLACK)
+ draw.text((10, 30), f"Temp: {tempratuur:.2f} C", font=font, fill=inky_display.BLACK)
  draw.text((10, 50), f"Druk: {druk:.2f} hPa", font=font, fill=inky_display.BLACK)
  draw.text((10, 70), f"Vochtigheid: {vochtigheid:.2f} %", font=font, fill=inky_display.BLACK)
  draw.text((10, 90), f"Licht: {lux:.2f} lux", font=font, fill=inky_display.BLACK)
