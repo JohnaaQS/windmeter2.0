@@ -1,0 +1,61 @@
+/bin/bash: /home/rpi/weatherhat-python/ICT-projecten/Programma/auto_push.sh: Bestand of map bestaat niet
+/bin/bash: /home/rpi/weatherhat-python/ICT-projecten/Programma/auto_push.sh: Bestand of map bestaat niet
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[main d402e3a] auto update 2025-02-17 15:00:01
+ 1 file changed, 9 insertions(+)
+To github.com:Yeet-Nicky/ICT-projecten.git
+   0433e05..d402e3a  main -> main
+[main 4ef77b2] auto update 2025-02-17 15:07:52
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[main 24d296c] auto update 2025-02-17 15:13:16
+ 1 file changed, 7 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[main 9294e67] auto update 2025-02-20 12:00:01
+ 1 file changed, 7 insertions(+)
+To github.com:Yeet-Nicky/ICT-projecten.git
+   cb8e067..9294e67  main -> main
+[main 174c438] auto update 2025-02-20 12:22:06
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[main efb048f] auto update 2025-02-20 12:27:34
+ 1 file changed, 7 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[main 07b163f] auto update 2025-02-20 12:30:00
+ 1 file changed, 7 insertions(+)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[main a8455b3] auto update 2025-02-20 13:46:43
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
