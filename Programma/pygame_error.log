@@ -107,3 +107,25 @@ Traceback (most recent call last):
 FileNotFoundError: No file 'icons/backgroundwm.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
 To github.com:JohnaaQS/windmeter2.0.git
    06343fb..e573f8a  main -> main
+To github.com:JohnaaQS/windmeter2.0.git
+   e573f8a..cdf1068  main -> main
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
