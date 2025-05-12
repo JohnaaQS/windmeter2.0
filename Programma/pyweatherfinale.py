@@ -145,7 +145,7 @@ def update_sensor_data():
 threading.Thread(target=update_sensor_data, daemon=True).start()
 
 # Achtergrondafbeelding laden
-background = pygame.image.load("backgroundwm.png")
+background = pygame.image.load("icons/backgroundwm.png")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 # Hoofdlus voor Pygame
