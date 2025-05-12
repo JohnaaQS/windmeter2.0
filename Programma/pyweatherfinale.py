@@ -163,19 +163,23 @@ while running:
             screen.blit(font_large.render(f"Tijd: {sensor_data['tijd']}", True, WHITE), (40, 30))
 
             screen.blit(icons["temperature"], (40, 100))
-            screen.blit(font_medium.render(f"{sensor_data['temperatuur']}°C", True, RED), (120, 110))
-
-            screen.blit(icons["humidity"], (40, 170))
-            screen.blit(font_medium.render(f"{sensor_data['vochtigheid']}%", True, BLUE), (120, 180))
-
-            screen.blit(icons["wind"], (40, 240))
-            screen.blit(font_medium.render(f"{sensor_data['windsnelheid']} m/s", True, GREEN), (120, 250))
-
-            screen.blit(icons["pressure"], (40, 310))
-            screen.blit(font_medium.render(f"{sensor_data['druk']} hPa", True, GRAY), (120, 320))
-
-            screen.blit(icons["light"], (40, 380))
-            screen.blit(font_medium.render(f"{sensor_data['licht']} lux", True, YELLOW), (120, 390))
+            screen.blit(font_medium.render(f"{sensor_data['temperatuur']}°C", True, BLACK), (120, 110))
+            
+            screen.blit(icons["humidity"], (40, 160))
+            screen.blit(font_medium.render(f"{sensor_data['vochtigheid']}%", True, BLACK), (120, 170))
+            
+            screen.blit(icons["wind"], (40, 220))
+            screen.blit(font_medium.render(f"{sensor_data['windsnelheid']} m/s", True, BLACK), (120, 230))
+            
+            # Windrichting verplaatsen naar een andere hoogte (60 pixels verder)
+            screen.blit(icons["wind"], (40, 280))
+            screen.blit(font_medium.render(f"{sensor_data['windrichting']}°", True, BLACK), (120, 290))
+            
+            screen.blit(icons["pressure"], (40, 340))
+            screen.blit(font_medium.render(f"{sensor_data['druk']} hPa", True, BLACK), (120, 350))
+            
+            screen.blit(icons["light"], (40, 400))
+            screen.blit(font_medium.render(f"{sensor_data['licht']} lux", True, BLACK), (120, 410))
 
         fade_alpha += fade_direction * fade_speed
         if fade_alpha >= 255:
