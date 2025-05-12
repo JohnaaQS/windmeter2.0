@@ -339,3 +339,19 @@ Tijd: 2025-05-12 15:03:59
 Apparaat Temp: 56.79 °C
 Temperatuur: 49.29 °C
 Luchtdruk: 1007.55 hPa
+pygame 2.1.2 (SDL 2.26.5, Python 3.11.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Fout bij laden van icoon 'icons/temperature.png': No file 'icons/temperature.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
+Fout bij laden van icoon 'icons/humidity.png': No file 'icons/humidity.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
+Fout bij laden van icoon 'icons/wind.png': No file 'icons/wind.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
+Fout bij laden van icoon 'icons/light.png': No file 'icons/light.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
+Fout bij laden van icoon 'icons/pressure.png': No file 'icons/pressure.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
+Tijd: 2025-05-12 15:09:18
+Apparaat Temp: nvt °C
+Temperatuur: nvt °C
+Luchtdruk: nvt hPa
+Luchtvochtigheid: nvt %
+Lichtintensiteit: nvt lux
+Windsnelheid: nvt m/s
+Windrichting: nvt graden
+------------------------------------
