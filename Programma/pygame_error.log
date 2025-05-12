@@ -105,3 +105,5 @@ Traceback (most recent call last):
     background = pygame.image.load("icons/backgroundwm.png")
                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: No file 'icons/backgroundwm.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
+To github.com:JohnaaQS/windmeter2.0.git
+   06343fb..e573f8a  main -> main
