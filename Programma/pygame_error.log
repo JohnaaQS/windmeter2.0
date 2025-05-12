@@ -54,3 +54,8 @@ To github.com:JohnaaQS/windmeter2.0.git
    00fd594..0f19433  main -> main
 To github.com:JohnaaQS/windmeter2.0.git
    0f19433..06343fb  main -> main
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
