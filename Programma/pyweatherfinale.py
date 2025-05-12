@@ -144,6 +144,10 @@ def update_sensor_data():
 # Start sensor thread
 threading.Thread(target=update_sensor_data, daemon=True).start()
 
+# Achtergrondafbeelding laden
+background = pygame.image.load("backgroundwm.png")
+background = pygame.transform.scale(background, (WIDTH, HEIGHT))
+
 # Hoofdlus voor Pygame
 running = True
 
@@ -152,7 +156,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill(BLACK)
+    screen.blit(background, (0, 0))  # Teken de achtergrond op (0, 0)
 
     try:
         if sensor_data:
