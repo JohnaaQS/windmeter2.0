@@ -10,6 +10,7 @@ import threading
 
 # Pygame setup (venster)
 pygame.init()
+clock = pygame.time.Clock()     
 WIDTH, HEIGHT = 800, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Weerstation Dashboard")
@@ -28,7 +29,7 @@ font_large = pygame.font.SysFont("Arial", 36)
 font_medium = pygame.font.SysFont("Arial", 28)
 font_small = pygame.font.SysFont("Arial", 22)
 
-# Iconen laden
+# Iconen laden en schalen naar 40x40
 icon_paths = {
     "temperature": "icons/temperature.png",
     "humidity": "icons/humidity.png",
@@ -36,7 +37,14 @@ icon_paths = {
     "light": "icons/light.png",
     "pressure": "icons/pressure.png"
 }
-icons = {key: pygame.image.load(path) for key, path in icon_paths.items()}
+
+icons = {}  
+for key, path in icon_paths.items():  
+    try:  
+        icon = pygame.image.load(path)  
+        icons[key] = pygame.transform.scale(icon, (40, 40))  
+    except Exception as e:  
+        print(f"Fout bij laden van icoon '{path}': {e}")  
 
 # LCD Display init
 SPI_SPEED_MHZ = 80
@@ -113,9 +121,11 @@ def update_sensor_data():
             writer = csv.writer(file)
             writer.writerow([tijdstip, apparaat_temperatuur, temperatuur,
                              druk, vochtigheid, lux, windkracht, windrichting])
+            print("gegevens opgeslagen!")
 
         # Git push
         os.popen('/bin/auto_push.sh')
+        print("git push succesvol!")
 
         sensor_data = {
             "tijd": tijdstip,
@@ -136,7 +146,7 @@ threading.Thread(target=update_sensor_data, daemon=True).start()
 
 # Hoofdlus voor Pygame
 running = True
-clock = pygame.time.Clock()
+
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -184,4 +194,3 @@ while running:
 pygame.quit()
 disp.set_backlight(0)
 print("Programma afgesloten")
-
