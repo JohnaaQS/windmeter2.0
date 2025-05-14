@@ -13,7 +13,8 @@ import numpy as np
 
 # Functie voor grafieken genereren
 def genereer_grafieken():
-    file_path = os.path.join(os.path.dirname(__file__), "weather_data.csv")
+    programma_map = "/home/rpi/weatherhat-python/ICT-projecten/Programma"
+    file_path = os.path.join(programma_map, "weather_data.csv")
     os.makedirs("grafieken", exist_ok=True)
     df = pd.read_csv(file_path, header=0)
 
