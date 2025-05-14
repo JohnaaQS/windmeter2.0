@@ -41,7 +41,10 @@ def genereer_grafieken():
     plt.grid(True, linestyle="--", alpha=0.7)
     plt.tight_layout()
     plt.savefig("grafieken/temperatuur_grafiek.png", dpi=300)
+    plt.show()
+    time.sleep(10)
     plt.close()
+
 
     plt.figure(figsize=(10, 5))
     plt.plot(df["Tijdstip"], df["Windsnelheid (m/s)"], label="Windsnelheid (m/s)", color="purple")
@@ -54,6 +57,8 @@ def genereer_grafieken():
     plt.grid(True, linestyle="--", alpha=0.7)
     plt.tight_layout()
     plt.savefig("grafieken/windsnelheid_grafiek.png", dpi=300)
+    plt.show()
+    time.sleep(10)
     plt.close()
 
 # Pygame setup
