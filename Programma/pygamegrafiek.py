@@ -125,6 +125,8 @@ sensor_data = {}
 
 def update_sensor_data():
     global sensor_data
+    laatste_opslaan = time.time()
+
     while True:
         tijdstip = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         apparaat_temperatuur = check_waarde(sensor.device_temperature)
@@ -135,20 +137,26 @@ def update_sensor_data():
         windkracht = check_waarde(sensor.wind_speed)
         windrichting = check_waarde(sensor.wind_direction)
 
+        # LCD display update
         img = Image.new("RGB", (LCD_WIDTH, LCD_HEIGHT), color=(0, 0, 0))
         draw = ImageDraw.Draw(img)
         message = f"Time: {tijdstip}\nWindrichting: {windrichting}\u00b0\nWindsnelheid: {windkracht} m/s\nTemp: {temperatuur}\u00b0C\nApparaat Temp: {apparaat_temperatuur}\u00b0C\nMade by JQS"
         draw.text((10, 10), message, font=font, fill=(255, 255, 255))
         disp.display(img)
 
-        with open('weather_data.csv', mode='a', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow([tijdstip, apparaat_temperatuur, temperatuur,
-                             druk, vochtigheid, lux, windkracht, windrichting])
-            print("gegevens opgeslagen!")
+        # Alleen opslaan naar CSV elke 60 seconden
+        nu = time.time()
+        if nu - laatste_opslaan >= 60:
+            with open('weather_data.csv', mode='a', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow([tijdstip, apparaat_temperatuur, temperatuur,
+                                 druk, vochtigheid, lux, windkracht, windrichting])
+                print("Gegevens opgeslagen in CSV.")
 
-        os.popen('/bin/auto_push.sh')
-        print("git push succesvol!")
+            os.popen('/bin/auto_push.sh')
+            print("Git push succesvol!")
+
+            laatste_opslaan = nu
 
         sensor_data = {
             "tijd": tijdstip,
