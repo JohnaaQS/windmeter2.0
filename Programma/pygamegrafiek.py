@@ -14,6 +14,7 @@ import numpy as np
 # Functie voor grafieken genereren
 def genereer_grafieken():
     file_path = os.path.join(os.path.dirname(__file__), "weather_data.csv")
+    os.makedirs("grafieken", exist_ok=True)
     df = pd.read_csv(file_path, header=0)
 
     df.columns = df.columns.str.strip()
@@ -136,6 +137,17 @@ def update_sensor_data():
         lux = check_waarde(sensor.lux)
         windkracht = check_waarde(sensor.wind_speed)
         windrichting = check_waarde(sensor.wind_direction)
+
+        # Console output
+        print(f"Tijd: {tijdstip}")
+        print(f"Apparaat Temp: {apparaat_temperatuur} °C")
+        print(f"Temperatuur: {temperatuur} °C")
+        print(f"Luchtdruk: {druk} hPa")
+        print(f"Luchtvochtigheid: {vochtigheid} %")
+        print(f"Lichtintensiteit: {lux} lux")
+        print(f"Windsnelheid: {windkracht} m/s")
+        print(f"Windrichting: {windrichting} graden")
+        print("------------------------------------")
 
         # LCD display update
         img = Image.new("RGB", (LCD_WIDTH, LCD_HEIGHT), color=(0, 0, 0))
