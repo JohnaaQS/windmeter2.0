@@ -38,7 +38,7 @@ def genereer_grafieken():
     plt.legend()
     plt.grid(True, linestyle="--", alpha=0.7)
     plt.tight_layout()
-    plt.savefig("temperatuur_grafiek.png", dpi=300)
+    plt.savefig("grafieken/temperatuur_grafiek.png", dpi=300)
     plt.close()
 
     plt.figure(figsize=(10, 5))
@@ -51,7 +51,7 @@ def genereer_grafieken():
     plt.legend()
     plt.grid(True, linestyle="--", alpha=0.7)
     plt.tight_layout()
-    plt.savefig("windsnelheid_grafiek.png", dpi=300)
+    plt.savefig("grafieken/windsnelheid_grafiek.png", dpi=300)
     plt.close()
 
 # Pygame setup
