@@ -13,7 +13,8 @@ import numpy as np
 
 # Functie voor grafieken genereren
 def genereer_grafieken():
-    file_path = os.path.join(os.path.dirname(__file__), "weather_data.csv")
+    programma_map = "/home/rpi/weatherhat-python/ICT-projecten/Programma"
+    file_path = os.path.join(programma_map, "weather_data.csv")
     os.makedirs("grafieken", exist_ok=True)
     df = pd.read_csv(file_path, header=0)
 
@@ -40,7 +41,10 @@ def genereer_grafieken():
     plt.grid(True, linestyle="--", alpha=0.7)
     plt.tight_layout()
     plt.savefig("grafieken/temperatuur_grafiek.png", dpi=300)
+    plt.show()
+    time.sleep(10)
     plt.close()
+
 
     plt.figure(figsize=(10, 5))
     plt.plot(df["Tijdstip"], df["Windsnelheid (m/s)"], label="Windsnelheid (m/s)", color="purple")
@@ -53,6 +57,8 @@ def genereer_grafieken():
     plt.grid(True, linestyle="--", alpha=0.7)
     plt.tight_layout()
     plt.savefig("grafieken/windsnelheid_grafiek.png", dpi=300)
+    plt.show()
+    time.sleep(10)
     plt.close()
 
 # Pygame setup
