@@ -86,6 +86,7 @@ fade_speed = 3
 
 sensor_data = {}
 
+#
 def update_sensor_data():
     global sensor_data
     while True:
