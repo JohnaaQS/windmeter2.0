@@ -234,7 +234,7 @@ def update_sensor_data():
         if nu - laatste_opslaan >= 60:
             with open('weather_data.csv', mode='a', newline='') as file:
                 writer = csv.writer(file)
-                writer.writerow([tijdstip, apparaat_temperatuur, tempratuur,
+                writer.writerow([tijdstip, apparaat_temperatuur, temperatuur,
                                 druk, vochtigheid, lux, windkracht, windrichting])
                 print("Gegevens opgeslagen in CSV.")
 
