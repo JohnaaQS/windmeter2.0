@@ -21,6 +21,72 @@ def genereer_grafieken():
     df.columns = df.columns.str.strip()
     df.replace("nvt", np.nan, inplace=True)
     df.dropna(inplace=True)
+    
+    df["Tijdstip"] = pd.to_datetime(df["Tijdstip"], errors="coerce")
+    df["Apparaat Temperatuur (°C)"] = pd.to_numeric(df["Apparaat Temperatuur (°C)"], errors="coerce")
+    df["Temperatuur (°C)"] = pd.to_numeric(df["Temperatuur (°C)"], errors="coerce")
+    df["Windsnelheid (m/s)"] = pd.to_numeric(df["Windsnelheid (m/s)"], errors="coerce")
+    df["Lichtintensiteit (lux)"] = pd.to_numeric(df["Lichtintensiteit (lux)"], errors="coerce")
+    
+    #df = df.head(600)
+    df = df.tail(400) # zo pak je alleen de laatste 400
+    ## zo pak je een bepaald stuk eruit##
+    #df = df.head(200:400)
+    
+    
+    ###TEMPERATUREN###
+    plt.figure(figsize=(10, 5))
+    plt.plot(df["Tijdstip"], df["Apparaat Temperatuur (°C)"], label="Apparaat Temp (°C)", color="red")
+    plt.plot(df["Tijdstip"], df["Temperatuur (°C)"], label="Omgeving Temp (°C)", color="blue")
+    
+    plt.xlabel("Tijd")
+    plt.ylabel("Temperatuur (°C)")
+    plt.title("Temperatuurmetingen (0-50°C)")
+    plt.ylim(0, 50)
+    plt.xticks(rotation=45)
+    plt.legend()
+    plt.grid(True, linestyle="--", alpha=0.7)
+    
+    plt.savefig("temperatuur_grafiek.png", dpi=300)
+    plt.show()
+    
+    
+    ###WINDSNELHEID###
+    plt.figure(figsize=(10, 5))
+    plt.plot(df["Tijdstip"], df["Windsnelheid (m/s)"], label="Windsnelheid (m/s)", color="purple")
+    
+    plt.xlabel("Tijd")
+    plt.ylabel("Windsnelheid (m/s)")
+    plt.title("Windsnelheidmetingen (0-20 m/s)")
+    plt.ylim(0, 20)
+    plt.xticks(rotation=45)
+    plt.legend()
+    plt.grid(True, linestyle="--", alpha=0.7)
+    
+    plt.savefig("windsnelheid_grafiek.png", dpi=300)
+    plt.show()
+    
+    
+    ###LICHTINTENSITEIT###
+    plt.figure(figsize=(10, 5))
+    plt.plot(df["Tijdstip"], df["Lichtintensiteit (lux)"], label="Lichtintensiteit (lux)", color="orange")
+    
+    plt.xlabel("Tijd")
+    plt.ylabel("Lichtintensiteit (lux)")
+    plt.title("Lichtintensiteitmetingen (0-1000 lux)")
+    plt.ylim(0, 1000)
+    plt.xticks(rotation=45)
+    plt.legend()
+    plt.grid(True, linestyle="--", alpha=0.7)
+    
+    plt.savefig("lichtintensiteit_grafiek.png", dpi=300)
+    plt.show()
+
+
+"""
+    df.columns = df.columns.str.strip()
+    df.replace("nvt", np.nan, inplace=True)
+    df.dropna(inplace=True)
 
     df["Tijdstip"] = pd.to_datetime(df["Tijdstip"], errors="coerce")
     df["Apparaat Temperatuur (\u00b0C)"] = pd.to_numeric(df["Apparaat Temperatuur (\u00b0C)"], errors="coerce")
@@ -32,6 +98,7 @@ def genereer_grafieken():
     plt.figure(figsize=(10, 5))
     plt.plot(df["Tijdstip"], df["Apparaat Temperatuur (\u00b0C)"], label="Apparaat Temp (\u00b0C)", color="red")
     plt.plot(df["Tijdstip"], df["Temperatuur (\u00b0C)"], label="Omgeving Temp (\u00b0C)", color="blue")
+    
     plt.xlabel("Tijd")
     plt.ylabel("Temperatuur (\u00b0C)")
     plt.title("Temperatuurmetingen (0-50\u00b0C)")
@@ -39,6 +106,7 @@ def genereer_grafieken():
     plt.xticks(rotation=45)
     plt.legend()
     plt.grid(True, linestyle="--", alpha=0.7)
+    
     plt.tight_layout()
     plt.savefig("grafieken/temperatuur_grafiek.png", dpi=300)
     plt.show()
@@ -60,7 +128,7 @@ def genereer_grafieken():
     plt.show()
     time.sleep(10)
     plt.close()
-
+"""
 # Pygame setup
 pygame.init()
 clock = pygame.time.Clock()
