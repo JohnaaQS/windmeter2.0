@@ -186,12 +186,11 @@ font = ImageFont.truetype(font_path, font_size)
 
 sensor = weatherhat.WeatherHAT()
 
-if not os.path.exists('weather_data.csv'):
-    with open('weather_data.csv', mode='a', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(["Tijdstip", "Apparaat Temperatuur (\u00b0C)", "Temperatuur (\u00b0C)",
-                         "Luchtdruk (hPa)", "Luchtvochtigheid (%)", "Lichtintensiteit (lux)",
-                         "Windsnelheid (m/s)", "Windrichting (graden)"])
+with open('weather_data.csv', mode='a', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Tijdstip", "Apparaat Temperatuur (°C)", "Temperatuur (°C)",
+                     "Luchtdruk (hPa)", "Luchtvochtigheid (%)", "Lichtintensiteit (lux)",
+                     "Windsnelheid (m/s)", "Windrichting (graden)"])
 
 def check_waarde(waarde):
     return "nvt" if waarde == 0 else round(waarde, 2)
@@ -235,8 +234,8 @@ def update_sensor_data():
         if nu - laatste_opslaan >= 60:
             with open('weather_data.csv', mode='a', newline='') as file:
                 writer = csv.writer(file)
-                writer.writerow([tijdstip, apparaat_temperatuur, temperatuur,
-                                 druk, vochtigheid, lux, windkracht, windrichting])
+                writer.writerow([tijdstip, apparaat_temperatuur, tempratuur,
+                                druk, vochtigheid, lux, windkracht, windrichting])
                 print("Gegevens opgeslagen in CSV.")
 
             os.popen('/bin/auto_push.sh')
