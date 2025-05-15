@@ -47,7 +47,7 @@ def genereer_grafieken():
     plt.legend()
     plt.grid(True, linestyle="--", alpha=0.7)
     
-    plt.savefig("temperatuur_grafiek.png", dpi=300)
+    plt.savefig("grafieken/temperatuur_grafiek.png", dpi=300)
     plt.show()
     
     
@@ -63,7 +63,7 @@ def genereer_grafieken():
     plt.legend()
     plt.grid(True, linestyle="--", alpha=0.7)
     
-    plt.savefig("windsnelheid_grafiek.png", dpi=300)
+    plt.savefig("grafieken/windsnelheid_grafiek.png", dpi=300)
     plt.show()
     
     
@@ -79,7 +79,7 @@ def genereer_grafieken():
     plt.legend()
     plt.grid(True, linestyle="--", alpha=0.7)
     
-    plt.savefig("lichtintensiteit_grafiek.png", dpi=300)
+    plt.savefig("grafieken/lichtintensiteit_grafiek.png", dpi=300)
     plt.show()
 
 
