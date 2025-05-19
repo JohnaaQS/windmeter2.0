@@ -304,4 +304,11 @@ ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
 ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
 ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
 ALSA lib pcm.c:8570:(snd_pcm_recover) underrun occurred
-                                                                                                                                                                                                              
+                                                                                                                                                                                                              error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+Traceback (most recent call last):
+  File "/home/rpi/weatherhat-python/ICT-projecten/Programma/pyweatherfinale.py", line 149, in <module>
+    background = pygame.image.load("icons/backgroundwm.png")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: No file 'icons/backgroundwm.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
+From github.com:JohnaaQS/windmeter2.0
+ * branch            main       -> FETCH_HEAD
