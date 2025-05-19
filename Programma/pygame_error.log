@@ -312,3 +312,7 @@ Traceback (most recent call last):
 FileNotFoundError: No file 'icons/backgroundwm.png' found in working directory '/home/rpi/weatherhat-python/ICT-projecten/Programma'.
 From github.com:JohnaaQS/windmeter2.0
  * branch            main       -> FETCH_HEAD
+To github.com:JohnaaQS/windmeter2.0.git
+   20035fa..ade7583  main -> main
+From github.com:JohnaaQS/windmeter2.0
+ * branch            main       -> FETCH_HEAD
