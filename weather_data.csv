@@ -4601,3 +4601,5 @@ Tijdstip,Apparaat Temperatuur (°C),Temperatuur (°C),Luchtdruk (hPa),Luchtvocht
 2025-05-22 11:35:02,39.89,32.39,1012.11,11.76,393.15,nvt,180
 2025-05-22 11:36:03,39.9,32.4,1012.09,11.77,393.37,nvt,180
 2025-05-22 11:37:03,39.83,32.33,1012.09,11.81,396.25,nvt,180
+Tijdstip,Apparaat Temperatuur (°C),Temperatuur (°C),Luchtdruk (hPa),Luchtvochtigheid (%),Lichtintensiteit (lux),Windsnelheid (m/s),Windrichting (graden)
+2025-05-22 12:46:25,39.17,31.67,1011.98,13.68,21.21,nvt,180
