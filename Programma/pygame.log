@@ -1491,3 +1491,39 @@ Windrichting: 180 graden
 gegevens opgeslagen!
 git push succesvol!
 Programma afgesloten
+pygame 2.1.2 (SDL 2.26.5, Python 3.11.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Tijd: 2025-05-22 14:02:07
+Apparaat Temp: nvt °C
+Temperatuur: nvt °C
+Luchtdruk: nvt hPa
+Luchtvochtigheid: nvt %
+Lichtintensiteit: nvt lux
+Windsnelheid: nvt m/s
+Windrichting: nvt graden
+------------------------------------
+gegevens opgeslagen!
+git push succesvol!
+Tijd: 2025-05-22 14:02:18
+Apparaat Temp: 22.3 °C
+Temperatuur: 14.8 °C
+Luchtdruk: 661.22 hPa
+Luchtvochtigheid: 60.52 %
+Lichtintensiteit: 735.31 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+gegevens opgeslagen!
+git push succesvol!
+Tijd: 2025-05-22 14:02:28
+Apparaat Temp: 41.17 °C
+Temperatuur: 33.67 °C
+Luchtdruk: 1011.66 hPa
+Luchtvochtigheid: 11.77 %
+Lichtintensiteit: 368.54 lux
+Windsnelheid: 0.05 m/s
+Windrichting: 225 graden
+------------------------------------
+gegevens opgeslagen!
+git push succesvol!
+Programma afgesloten
