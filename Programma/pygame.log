@@ -1563,3 +1563,315 @@ Windrichting: 225 graden
 gegevens opgeslagen!
 git push succesvol!
 Programma afgesloten
+pygame 2.1.2 (SDL 2.26.5, Python 3.11.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Tijd: 2025-05-22 14:09:01
+Apparaat Temp: nvt °C
+Temperatuur: nvt °C
+Luchtdruk: nvt hPa
+Luchtvochtigheid: nvt %
+Lichtintensiteit: nvt lux
+Windsnelheid: nvt m/s
+Windrichting: 0.0 graden
+------------------------------------
+Tijd: 2025-05-22 14:09:11
+Apparaat Temp: 22.3 °C
+Temperatuur: 14.8 °C
+Luchtdruk: 661.22 hPa
+Luchtvochtigheid: 60.52 %
+Lichtintensiteit: 717.94 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:09:21
+Apparaat Temp: 38.84 °C
+Temperatuur: 31.34 °C
+Luchtdruk: 1011.62 hPa
+Luchtvochtigheid: 13.66 %
+Lichtintensiteit: 333.47 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:09:31
+Apparaat Temp: 38.88 °C
+Temperatuur: 31.38 °C
+Luchtdruk: 1011.64 hPa
+Luchtvochtigheid: 13.66 %
+Lichtintensiteit: 328.03 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:09:41
+Apparaat Temp: 38.87 °C
+Temperatuur: 31.37 °C
+Luchtdruk: 1011.61 hPa
+Luchtvochtigheid: 13.67 %
+Lichtintensiteit: 342.14 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:09:51
+Apparaat Temp: 38.8 °C
+Temperatuur: 31.3 °C
+Luchtdruk: 1011.58 hPa
+Luchtvochtigheid: 13.77 %
+Lichtintensiteit: 361.41 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:10:01
+Apparaat Temp: 38.94 °C
+Temperatuur: 31.44 °C
+Luchtdruk: 1011.56 hPa
+Luchtvochtigheid: 13.69 %
+Lichtintensiteit: 356.76 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Gegevens opgeslagen in CSV.
+Git push succesvol!
+Tijd: 2025-05-22 14:10:12
+Apparaat Temp: 39.14 °C
+Temperatuur: 31.64 °C
+Luchtdruk: 1011.57 hPa
+Luchtvochtigheid: 13.53 %
+Lichtintensiteit: 364.29 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:10:22
+Apparaat Temp: 39.24 °C
+Temperatuur: 31.74 °C
+Luchtdruk: 1011.59 hPa
+Luchtvochtigheid: 13.43 %
+Lichtintensiteit: 360.3 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:10:32
+Apparaat Temp: 39.3 °C
+Temperatuur: 31.8 °C
+Luchtdruk: 1011.54 hPa
+Luchtvochtigheid: 13.31 %
+Lichtintensiteit: 357.98 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:10:42
+Apparaat Temp: 39.31 °C
+Temperatuur: 31.81 °C
+Luchtdruk: 1011.58 hPa
+Luchtvochtigheid: 13.32 %
+Lichtintensiteit: 355.98 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:10:52
+Apparaat Temp: 39.29 °C
+Temperatuur: 31.79 °C
+Luchtdruk: 1011.57 hPa
+Luchtvochtigheid: 13.31 %
+Lichtintensiteit: 355.32 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:11:02
+Apparaat Temp: 39.52 °C
+Temperatuur: 32.02 °C
+Luchtdruk: 1011.61 hPa
+Luchtvochtigheid: 13.24 %
+Lichtintensiteit: 352.77 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Gegevens opgeslagen in CSV.
+Git push succesvol!
+Tijd: 2025-05-22 14:11:12
+Apparaat Temp: 39.6 °C
+Temperatuur: 32.1 °C
+Luchtdruk: 1011.6 hPa
+Luchtvochtigheid: 13.13 %
+Lichtintensiteit: 351.0 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:11:22
+Apparaat Temp: 39.64 °C
+Temperatuur: 32.14 °C
+Luchtdruk: 1011.61 hPa
+Luchtvochtigheid: 13.1 %
+Lichtintensiteit: 349.44 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:11:32
+Apparaat Temp: 39.77 °C
+Temperatuur: 32.27 °C
+Luchtdruk: 1011.57 hPa
+Luchtvochtigheid: 13.01 %
+Lichtintensiteit: 348.89 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:11:42
+Apparaat Temp: 39.92 °C
+Temperatuur: 32.42 °C
+Luchtdruk: 1011.59 hPa
+Luchtvochtigheid: 12.92 %
+Lichtintensiteit: 346.56 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:11:52
+Apparaat Temp: 39.93 °C
+Temperatuur: 32.43 °C
+Luchtdruk: 1011.6 hPa
+Luchtvochtigheid: 12.9 %
+Lichtintensiteit: 347.45 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:12:03
+Apparaat Temp: 40.03 °C
+Temperatuur: 32.53 °C
+Luchtdruk: 1011.57 hPa
+Luchtvochtigheid: 12.83 %
+Lichtintensiteit: 347.78 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Gegevens opgeslagen in CSV.
+Git push succesvol!
+Tijd: 2025-05-22 14:12:13
+Apparaat Temp: 40.06 °C
+Temperatuur: 32.56 °C
+Luchtdruk: 1011.58 hPa
+Luchtvochtigheid: 12.81 %
+Lichtintensiteit: 341.35 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:12:23
+Apparaat Temp: 40.11 °C
+Temperatuur: 32.61 °C
+Luchtdruk: 1011.6 hPa
+Luchtvochtigheid: 12.78 %
+Lichtintensiteit: 346.34 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:12:33
+Apparaat Temp: 40.18 °C
+Temperatuur: 32.68 °C
+Luchtdruk: 1011.59 hPa
+Luchtvochtigheid: 12.73 %
+Lichtintensiteit: 344.01 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:12:43
+Apparaat Temp: 40.15 °C
+Temperatuur: 32.65 °C
+Luchtdruk: 1011.61 hPa
+Luchtvochtigheid: 12.78 %
+Lichtintensiteit: 342.24 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:12:53
+Apparaat Temp: 40.25 °C
+Temperatuur: 32.75 °C
+Luchtdruk: 1011.55 hPa
+Luchtvochtigheid: 12.72 %
+Lichtintensiteit: 341.69 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:13:03
+Apparaat Temp: 40.28 °C
+Temperatuur: 32.78 °C
+Luchtdruk: 1011.6 hPa
+Luchtvochtigheid: 12.7 %
+Lichtintensiteit: 188.33 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Gegevens opgeslagen in CSV.
+Git push succesvol!
+Tijd: 2025-05-22 14:13:13
+Apparaat Temp: 40.37 °C
+Temperatuur: 32.87 °C
+Luchtdruk: 1011.61 hPa
+Luchtvochtigheid: 12.65 %
+Lichtintensiteit: 212.84 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:13:23
+Apparaat Temp: 40.42 °C
+Temperatuur: 32.92 °C
+Luchtdruk: 1011.56 hPa
+Luchtvochtigheid: 12.59 %
+Lichtintensiteit: 166.99 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:13:33
+Apparaat Temp: 40.37 °C
+Temperatuur: 32.87 °C
+Luchtdruk: 1011.55 hPa
+Luchtvochtigheid: 12.61 %
+Lichtintensiteit: 333.38 lux
+Windsnelheid: nvt m/s
+Windrichting: 225 graden
+------------------------------------
+Tijd: 2025-05-22 14:13:43
+Apparaat Temp: 40.46 °C
+Temperatuur: 32.96 °C
+Luchtdruk: 1011.58 hPa
+Luchtvochtigheid: 12.55 %
+Lichtintensiteit: 312.22 lux
+Windsnelheid: 0.09 m/s
+Windrichting: 270 graden
+------------------------------------
+Tijd: 2025-05-22 14:13:54
+Apparaat Temp: 40.45 °C
+Temperatuur: 32.95 °C
+Luchtdruk: 1011.55 hPa
+Luchtvochtigheid: 12.56 %
+Lichtintensiteit: 306.01 lux
+Windsnelheid: nvt m/s
+Windrichting: 270 graden
+------------------------------------
+Tijd: 2025-05-22 14:14:04
+Apparaat Temp: 40.47 °C
+Temperatuur: 32.97 °C
+Luchtdruk: 1011.51 hPa
+Luchtvochtigheid: 12.57 %
+Lichtintensiteit: 307.45 lux
+Windsnelheid: nvt m/s
+Windrichting: 270 graden
+------------------------------------
+Gegevens opgeslagen in CSV.
+Git push succesvol!
+Tijd: 2025-05-22 14:14:14
+Apparaat Temp: 40.41 °C
+Temperatuur: 32.91 °C
+Luchtdruk: 1011.55 hPa
+Luchtvochtigheid: 12.62 %
+Lichtintensiteit: 303.68 lux
+Windsnelheid: nvt m/s
+Windrichting: 270 graden
+------------------------------------
+Tijd: 2025-05-22 14:14:24
+Apparaat Temp: 40.49 °C
+Temperatuur: 32.99 °C
+Luchtdruk: 1011.54 hPa
+Luchtvochtigheid: 12.57 %
+Lichtintensiteit: 301.67 lux
+Windsnelheid: nvt m/s
+Windrichting: 270 graden
+------------------------------------
+Tijd: 2025-05-22 14:14:34
+Apparaat Temp: 40.59 °C
+Temperatuur: 33.09 °C
