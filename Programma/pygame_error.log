@@ -5727,3 +5727,6 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+From github.com:JohnaaQS/windmeter2.0
+ * branch            main       -> FETCH_HEAD
