@@ -126,6 +126,14 @@ for key, path in icon_paths.items():
     except Exception as e:
         print(f"Fout bij laden van icoon '{path}': {e}")
 
+# === TOEGEVOEGD: Windrichting-pijl laden ===
+try:
+    arrow_image = pygame.image.load("icons/arrow.png")
+    arrow_image = pygame.transform.scale(arrow_image, (50, 50))
+except Exception as e:
+    print(f"Fout bij laden van pijl icoon: {e}")
+    arrow_image = None
+
 # LCD instellingen 
 SPI_SPEED_MHZ = 80
 disp = ST7789(
@@ -263,6 +271,13 @@ while running:
             screen.blit(icons["light"], (40, 400))
             screen.blit(font_medium.render(f"{sensor_data['licht']} lux", True, BLACK), (120, 410))
 
+            #pijl voor windrichting 
+            if arrow_image and "windrichting" in sensor_data:
+                hoek = -sensor_data["windrichting"]
+                gedraaide_pijl = pygame.transform.rotate(arrow_image, hoek)
+                pijl_rect = gedraaide_pijl.get_rect(center=(850, 180))
+                screen.blit(gedraaide_pijl, pijl_rect)
+                
         #grafiekknop aanmaken 
         pygame.draw.rect(screen, GREEN, button_rect)
         knop_tekst = font_small.render("Start Grafiek", True, BLACK)
