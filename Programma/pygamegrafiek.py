@@ -275,7 +275,7 @@ while running:
             if arrow_image and "windrichting" in sensor_data:
                 hoek = -sensor_data["windrichting"]
                 gedraaide_pijl = pygame.transform.rotate(arrow_image, hoek)
-                pijl_rect = gedraaide_pijl.get_rect(center=(850, 180))
+                pijl_rect = gedraaide_pijl.get_rect(center=(700, 180))
                 screen.blit(gedraaide_pijl, pijl_rect)
                 
         #grafiekknop aanmaken 
