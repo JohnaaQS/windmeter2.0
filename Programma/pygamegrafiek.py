@@ -82,53 +82,6 @@ def genereer_grafieken():
     plt.savefig("grafieken/lichtintensiteit_grafiek.png", dpi=300)
     plt.show()
 
-
-"""
-    df.columns = df.columns.str.strip()
-    df.replace("nvt", np.nan, inplace=True)
-    df.dropna(inplace=True)
-
-    df["Tijdstip"] = pd.to_datetime(df["Tijdstip"], errors="coerce")
-    df["Apparaat Temperatuur (\u00b0C)"] = pd.to_numeric(df["Apparaat Temperatuur (\u00b0C)"], errors="coerce")
-    df["Temperatuur (\u00b0C)"] = pd.to_numeric(df["Temperatuur (\u00b0C)"], errors="coerce")
-    df["Windsnelheid (m/s)"] = pd.to_numeric(df["Windsnelheid (m/s)"], errors="coerce")
-
-    df = df.tail(400)
-
-    plt.figure(figsize=(10, 5))
-    plt.plot(df["Tijdstip"], df["Apparaat Temperatuur (\u00b0C)"], label="Apparaat Temp (\u00b0C)", color="red")
-    plt.plot(df["Tijdstip"], df["Temperatuur (\u00b0C)"], label="Omgeving Temp (\u00b0C)", color="blue")
-    
-    plt.xlabel("Tijd")
-    plt.ylabel("Temperatuur (\u00b0C)")
-    plt.title("Temperatuurmetingen (0-50\u00b0C)")
-    plt.ylim(0, 50)
-    plt.xticks(rotation=45)
-    plt.legend()
-    plt.grid(True, linestyle="--", alpha=0.7)
-    
-    plt.tight_layout()
-    plt.savefig("grafieken/temperatuur_grafiek.png", dpi=300)
-    plt.show()
-    time.sleep(10)
-    plt.close()
-
-
-    plt.figure(figsize=(10, 5))
-    plt.plot(df["Tijdstip"], df["Windsnelheid (m/s)"], label="Windsnelheid (m/s)", color="purple")
-    plt.xlabel("Tijd")
-    plt.ylabel("Windsnelheid (m/s)")
-    plt.title("Windsnelheidmetingen (0-20 m/s)")
-    plt.ylim(0, 20)
-    plt.xticks(rotation=45)
-    plt.legend()
-    plt.grid(True, linestyle="--", alpha=0.7)
-    plt.tight_layout()
-    plt.savefig("grafieken/windsnelheid_grafiek.png", dpi=300)
-    plt.show()
-    time.sleep(10)
-    plt.close()
-"""
 # Pygame setup
 pygame.init()
 clock = pygame.time.Clock()
