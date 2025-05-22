@@ -5834,3 +5834,6 @@ From github.com:JohnaaQS/windmeter2.0
  * branch            main       -> FETCH_HEAD
 To github.com:JohnaaQS/windmeter2.0.git
    b198c5e..24d3f35  main -> main
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+From github.com:JohnaaQS/windmeter2.0
+ * branch              main       -> FETCH_HEAD
