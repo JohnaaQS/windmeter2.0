@@ -277,6 +277,25 @@ while running:
                 gedraaide_pijl = pygame.transform.rotate(arrow_image, hoek)
                 pijl_rect = gedraaide_pijl.get_rect(center=(700, 180))
                 screen.blit(gedraaide_pijl, pijl_rect)
+                # Kompasletters (N, O, Z, W)
+                
+                richtingen = {
+                    "N": (pijl_rect.centerx, pijl_rect.top - 30),
+                    "O": (pijl_rect.right + 20, pijl_rect.centery),
+                    "Z": (pijl_rect.centerx, pijl_rect.bottom + 30),
+                    "W": (pijl_rect.left - 20, pijl_rect.centery),
+                }
+
+                for letter, pos in richtingen.items():
+                    tekst = font_small.render(letter, True, WHITE)
+                    tekst_rect = tekst.get_rect(center=pos)
+                    screen.blit(tekst, tekst_rect)
+                
+        #grafiekknop aanmaken 
+        pygame.draw.rect(screen, GREEN, button_rect)
+        knop_tekst = font_small.render("Start Grafiek", True, BLACK)
+        tekst_rect = knop_tekst.get_rect(center=button_rect.center)
+        screen.blit(knop_tekst, tekst_rect)
                 
         #grafiekknop aanmaken 
         pygame.draw.rect(screen, GREEN, button_rect)
