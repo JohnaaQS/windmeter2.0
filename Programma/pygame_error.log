@@ -5781,3 +5781,6 @@ From github.com:JohnaaQS/windmeter2.0
 To github.com:JohnaaQS/windmeter2.0.git
    3fbc0cc..61201f1  main -> main
 X connection to :0 broken (explicit kill or server shutdown).
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+From github.com:JohnaaQS/windmeter2.0
+ * branch            main       -> FETCH_HEAD
